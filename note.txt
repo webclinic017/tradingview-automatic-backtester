@@ -1,0 +1,76 @@
+
+"""
+＠問題
+エラーが起きて、処理が終了してしまった時、テストに復帰する方法が必要
+
+######     A 案     ######### 
+
+＠解決法
+スキャンと審査が完了したら、対象のフラグ（一番上）をクリックして、リストから消去。
+すでにスキャンした銘柄はリストから消えているので、未スキャンの銘柄だけがテスト対象となる。
+
+######     B 案     ######### 
+
+＠解決法
+途中で終わったパラメーターの値からやり直す。
+
+＠解決法の問題
+1銘柄のテストに50時間以上かかるので、銘柄を最初からやり直すと、時間の無駄になる。
+途中で終わったパラメーターの値を取得して、残りのループのレンジを再計算し、適応させなければいけない。（煩雑）
+
+
+＠再検討
+そもそも、途中でクラッシュする原因は何？
+クラッシュする要素を全て回避すれば、再計算する必要がない。
+
+####################################################################################
+
+＠問題
+ Disconnecにより、処理が中断し、終了してしまうリスクがある。
+
+######     A案     ######### 
+
+＠解決法
+全てのブラウザ動作をDisconected()を組み込んだ関数化する。
+Try ExceptでDisconected()をはめ込む
+
+＠解決法の問題
+コードが長くなる。
+
+####################################################################################
+
+＠問題
+結果がサーバーにあるので手に入らない
+
+"""
+
+\\\\\\\\\\MEMO\\\\\\\\\\\
+
+wget -q https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+curl -OL https://chromedriver.storage.googleapis.com/103.0.5060.24/chromedriver_linux64.zip
+unzip chromedriver_linux64.zip && rm -f chromedriver_linux64.zip
+
+pip3 install --upgrade pip
+pip3 install --no-cache-dir -r requirements.txt
+
+
+" * " means Optional
+--------------------------------------------------------------------------------
+----- AWS EC2 -----
+インスタンス作成
+
+----- PowerShell -----
+sshログイン（「接続」からコマンド入手）
+例：ssh -i "xxxxx.pem" ubuntu@xxxxxxxxx.us-west-1.compute.amazonaws.com
+
+----- ubuntuで操作開始 -----
+sudo apt-get -y update
+sudo apt-get -y install python3
+sudo apt-get -y install python3-pip
+yes | sudo pip3 install flask
+sudo apt-get -y install nginx
+sudo apt-get -y install gunicorn3
+mkdir flaskapp
+cd flaskapp
+vi app.py
+->> paste my app

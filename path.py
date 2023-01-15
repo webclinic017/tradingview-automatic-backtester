@@ -1,0 +1,94 @@
+Discord       = 'https://Discord.com/api/webhooks/984541683821711400/QQsZnrvcX-C5ClnowMWvc3rnrLC-XlNU478FYJgfuSlaCoLrqY9SqWBLZ8_FRon2B2HZ'
+Discord_Alert = "https://Discord.com/api/webhooks/985574619438252102/QuSrSmlZ9n-GVG1Q20zbkXwm7qhEfKzphWy71qHw_L3G9yuteDa3Y-VcGX-Yu7MkSxuA"
+
+AvatarLogin     = "https://pbs.twimg.com/media/FVC581BagAEYLuJ?format=jpg&name=medium"
+AvatarParam     = "https://pbs.twimg.com/media/FVC580CaMAAkHtL?format=jpg&name=medium"
+AvatarStrategy  = "https://pbs.twimg.com/media/FVC580KaIAEISzu?format=jpg&name=medium"
+AvatarSymbol    = "https://pbs.twimg.com/media/FVC5_1OakAIMEtb?format=jpg&name=medium"
+AvatarComplete  = "https://pbs.twimg.com/media/FVC5_0DaQAEmu72?format=jpg&name=medium"
+AvatarFailed    = "https://pbs.twimg.com/media/FVRxg8oUAAAkIGT?format=jpg&name=medium"
+AvatarSetup     = "https://pbs.twimg.com/media/FVTPEC4VUAUWDKk?format=jpg&name=medium"
+AvatarNoQualify = "https://pbs.twimg.com/media/FVTPDARUEAATtJy?format=jpg&name=medium"
+
+NetProfit               = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[1]/td[2]/div/div[2]'
+GrossProfit             = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[2]/td[2]/div/div[2]'
+GrossLoss               = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[3]/td[2]/div/div[2]'
+MaxRunup                = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[4]/td[2]/div/div[2]'
+MaxDrawdown             = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[5]/td[2]/div/div[2]'
+BuyAndHoldReturn        = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[6]/td[2]/div/div[2]'
+SharpeRatio             = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[7]/td[2]/div/div' 
+SortinoRatio            = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[8]/td[2]/div/div' 
+ProfitFactor            = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[9]/td[2]/div/div'
+MaxContractsHeld        = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[10]/td[2]/div/div'
+OpenPL                  = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[11]/td[2]/div/div[2]'
+CommissionPaid          = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[12]/td[2]/div/div'
+TotalClosedTrades       = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[13]/td[2]/div/div'
+TotalOpenTrades         = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[14]/td[2]/div/div'
+NumberWinningTrades     = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[15]/td[2]/div/div'
+NumberLosingTrades      = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[16]/td[2]/div/div'
+PercentProfitable       = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[17]/td[2]/div/div'
+AvgTrade                = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[18]/td[2]/div/div[2]'
+AvgWinningTrade         = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[19]/td[2]/div/div[2]'
+AvgLosingTrade          = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[20]/td[2]/div/div[2]'
+RatioAvgWinVsAvgLoss    = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[21]/td[2]/div/div'
+LargestWinningTrade     = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[22]/td[2]/div/div[2]'
+LargestLosingTrade      = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[23]/td[2]/div/div[2]'
+AvgBarsInTrades         = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[24]/td[2]/div/div'
+AvgBarsInWinningTrades  = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[25]/td[2]/div/div'
+AvgBarsInLosingTrades   = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[26]/td[2]/div/div'
+
+NaN_NetProfit               = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[1]/td[2]/div/div'
+NaN_GrossProfit             = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[2]/td[2]/div/div'
+NaN_GrossLoss               = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[3]/td[2]/div/div'
+NaN_MaxRunup                = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[4]/td[2]/div/div'
+NaN_MaxDrawdown             = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[5]/td[2]/div/div'
+NaN_BuyAndHoldReturn        = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[6]/td[2]/div/div'
+#NaN_SharpeRatio             = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[7]/td[2]/div/div' 
+#NaN_SortinoRatio            = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[8]/td[2]/div/div' 
+#NaN_ProfitFactor            = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[9]/td[2]/div/div'
+#NaN_MaxContractsHeld        = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[10]/td[2]/div/div'
+NaN_OpenPL                  = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[11]/td[2]/div/div'
+#NaN_CommissionPaid          = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[12]/td[2]/div/div'
+#NaN_TotalClosedTrades       = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[13]/td[2]/div/div'
+#NaN_TotalOpenTrades         = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[14]/td[2]/div/div'
+#NaN_NumberWinningTrades     = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[15]/td[2]/div/div'
+#NaN_NumberLosingTrades      = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[16]/td[2]/div/div'
+#NaN_PercentProfitable       = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[17]/td[2]/div/div'
+NaN_AvgTrade                = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[18]/td[2]/div/div'
+NaN_AvgWinningTrade         = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[19]/td[2]/div/div'
+NaN_AvgLosingTrade          = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[20]/td[2]/div/div'
+#NaN_RatioAvgWinVsAvgLoss    = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[21]/td[2]/div/div'
+NaN_LargestWinningTrade     = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[22]/td[2]/div/div'
+NaN_LargestLosingTrade      = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[23]/td[2]/div/div'
+#NaN_AvgBarsInTrades         = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[24]/td[2]/div/div'
+#NaN_AvgBarsInWinningTrades  = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[25]/td[2]/div/div'
+#NaN_AvgBarsInLosingTrades   = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div/div/table/tbody/tr[26]/td[2]/div/div'
+
+
+StrategyList    = "/html/body/div[2]/div[7]/div[2]/div[4]/div/div[1]/div[1]/div[1]/div"
+ParamMenu       = '//div[2]/div[7]/div[2]/div[5]/div/div[1]/div[1]/div/button[1]'
+Generate        = "/html/body/div[2]/div[7]/div[2]/div[4]/div/div[1]/div[2]/button"
+Disconect       = "//div[5]/div[2]/div/div[2]/div/div/div[1]/div/div[3]/div/button"
+flagmenu        = '/html/body/div[2]/div[6]/div/div[1]/div[1]/div[1]/div[1]/div[1]/div/div/div[1]/div'
+StrategyName    = "/html/body/div[2]/div[7]/div[2]/div[4]/div/div[1]/div[1]/div[1]/div/span/span"
+StrategyNameNow = '//*[@id="bottom-area"]/div[4]/div/div[1]/div[1]/div[1]/div'
+watchlistMenu   = '/html/body/div[2]/div[6]/div/div[1]/div[1]/div[1]/div[1]/div[1]/div/div/div[1]'
+openBottomTab   = "/html/body/div[2]/div[7]/div[1]/div/div[2]/button[2][@data-active='false']"
+closeBottomTab  = "/html/body/div[2]/div[7]/div[1]/div/div[2]/button[1]"
+halfBottomTab   = "//*[@id='footer-chart-panel']/div[2]/button[2]"
+
+strategyTester  = "/html/body/div[2]/div[7]/div[1]/div/div[1]/div[1]/div[3]/div"
+deepHistory     = '//*[@id="bottom-area"]/div[4]/div/div[1]/div[1]/div[2]/div/input'
+timeframeList   = "//div[@class='arrow-khcLBZEz']"
+testStartDate   = "/html/body/div[2]/div[7]/div[2]/div[4]/div/div[1]/div[2]/div[1]/div/div/div/div/span/span[1]"
+
+inputStartDate  = '//*[@id="bottom-area"]/div[4]/div/div[1]/div[2]/div[1]/div/div/div/div/span/span[1]/input'
+
+SourceMenu      = "//div[5]/div/div/div[2]/div/div[4]/div/div/div[1]/div[2]/div[2]/div"
+Alert           = '//*[@id="bottom-area"]/div[4]/div/div[1]/div[1]/div[1]/button[3]'
+AlertConditionMenu = '//*[@id="overlap-manager-root"]/div/div/div[2]/div[1]/div/div/p/form/fieldset/div[1]/span/div[1]/span/span[3]'
+AlertConditionMenu_2 = '//*[@id="overlap-manager-root"]/div/div/div[2]/div[1]/div/div/p/form/fieldset/div[2]/span/span/span[3]'
+AlertCallsOnly  = '//*[@id="overlap-manager-root"]/div/div/div[2]/div[1]/div/div/p/form/fieldset/div[2]/span/span/span[2]/span/span/span[3]/span'
+SubmitAlert     = "//*[@id='overlap-manager-root']/div/div/div[3]/div[2]/span[2]"
+spin            = '//*[@id="bottom-area"]/div[4]/div/div[3]/div/div/div'
+AlertMessage = '//*[@id="overlap-manager-root"]/div/div/div[2]/div[1]/div/div/p/form/fieldset/span[5]/span/div/textarea'
