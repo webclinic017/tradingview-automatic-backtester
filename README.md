@@ -6,22 +6,10 @@
   
 ## How does it work?  
   
-Since there is no API for TradingView, this system manipulates the TradingView website by selenium.  
-Post strategy, parameter ranges, time-frames, deep-history mode, and so on to this app which has dockerized and deployed via REST API.  
-This app automatically starts driving TradingView and keeps backtesting for you.  
-Once backtest has been done, this app automatically picks up the best parameter, and then it restarts backtesting around the best result. 
-In the end, this app provides you with the best of the BEST parameter.  
+This app was designed to backtest trading strategies on TradingView. Since an API is not available, it manipulates the TradingView website using Selenium. Users can input their trading strategy, parameters, time-frames, etc. into the app, which has been dockerized and deployed via a REST API. The app runs backtests and repeatedly optimizes parameters until it finds the best set. Finally, the app provides the user with the optimal parameters.
    
 That's all I remember...  
   
 ## History  
   
-This is my first application ever built. It was in mid-2022.    
-    
-I see so many mistakes, but I feel like keeping them the way it is.   
-Because creating this app was one of the biggest challenges and also the most painful days in my life before 25.  
-Since I had little experience with python, I spent a couple of months building this app.   
-It took me days to install python and a week to understand and activate the virtual environment.   
-    
-In the future, I feel like want to look back at bad codes and feel a bit of nostalgia.   
-Also as my milestone.  
+This is my first ever application that I built in mid-2022. Although there are many mistakes in the code, I feel like keeping it as is. Creating this app was one of the biggest challenges and most painful experiences in my life before age 25. I had little experience with Python, so it took me a couple of months to build the app and days to install Python and a week to understand and activate the virtual environment. In the future, I would like to look back at the code and feel a sense of nostalgia, as it serves as a milestone in my personal and professional journey. 
