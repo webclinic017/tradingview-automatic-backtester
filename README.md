@@ -1,8 +1,7 @@
 ### 【Archive】Automates Backtesting on TradingView by Python Selenium.
 
 ## Disclaimer  
-1. If you run more than 4 backtest proccesses parallelly with this system on TradingView, you will get temporarily banned.
-2. I haven't done any maintenance on this system since June 2022 and I won't.
+This app can run multiple backtests in parallel, but if more than 4 are run simultaneously on TradingView, the account may be temporarily banned. No maintenance has been performed on this system since June 2022 and none is planned in the future.
   
 ## How does it work?  
   
